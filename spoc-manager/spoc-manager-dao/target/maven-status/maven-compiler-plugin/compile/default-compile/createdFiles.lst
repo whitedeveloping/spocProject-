@@ -1,0 +1,11 @@
+com/spoc/mapper/TbOrderMapper.class
+com/spoc/mapper/TbContentMapper.class
+com/spoc/mapper/TbItemMapper.class
+com/spoc/mapper/TbOrderShippingMapper.class
+com/spoc/mapper/TbOrderItemMapper.class
+com/spoc/mapper/TbItemDescMapper.class
+com/spoc/mapper/TbItemParamItemMapper.class
+com/spoc/mapper/TbContentCategoryMapper.class
+com/spoc/mapper/TbItemCatMapper.class
+com/spoc/mapper/TbItemParamMapper.class
+com/spoc/mapper/TbUserMapper.class
