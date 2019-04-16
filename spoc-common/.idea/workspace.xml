@@ -32,6 +32,9 @@
     <expand />
     <select />
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="spoc-common" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
@@ -74,7 +77,6 @@
         <option value="$PROJECT_DIR$/../spoc-manager/spoc-manager-pojo/src/main/java/com/spoc/pojo/TbItemParamItem.java" />
         <option value="$PROJECT_DIR$/../spoc-manager/spoc-manager-dao/src/main/java/mapper/TbOrderShippingMapper.java" />
         <option value="$PROJECT_DIR$/../spoc-manager/spoc-manager-interface/src/main/java/com/spoc/service/ItemService.java" />
-        <option value="$PROJECT_DIR$/../spoc-manager/spoc-manager-web/src/main/java/com/spoc/controller/ItemController.java" />
         <option value="$PROJECT_DIR$/../spoc-manager/spoc-manager-service/src/main/java/com/spoc/service/Impl/itemServiceImpl.java" />
         <option value="$PROJECT_DIR$/../spoc-manager/spoc-manager-dao/src/main/java/com/spoc/mapper/TbContentCategoryMapper.java" />
         <option value="$PROJECT_DIR$/../spoc-manager/spoc-manager-dao/src/main/java/com/spoc/mapper/TbItemMapper.java" />
@@ -83,12 +85,14 @@
         <option value="$PROJECT_DIR$/../spoc-manager/spoc-manager-web/src/main/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/../spoc-manager/spoc-manager-dao/pom.xml" />
         <option value="$PROJECT_DIR$/../spoc-manager/pom.xml" />
-        <option value="$PROJECT_DIR$/../spoc-manager/spoc-manager-service/pom.xml" />
         <option value="$PROJECT_DIR$/../spoc-manager-web/pom.xml" />
         <option value="$PROJECT_DIR$/../spoc-manager/spoc-manager-service/src/main/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/../spoc-manager-web/src/main/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/../../../../5A9A48659A483FAD/商城架构搭建/e3商城_day01/黑马32期/01.教案-3.0/01.参考资料/mybatis/逆向工程/generatorSqlmapCustom/src/Test2.java" />
         <option value="$PROJECT_DIR$/../../../../5A9A48659A483FAD/商城架构搭建/e3商城_day01/黑马32期/01.教案-3.0/01.参考资料/mybatis/逆向工程/generatorSqlmapCustom/src/com/spoc/Test.java" />
+        <option value="$PROJECT_DIR$/../spoc-manager/spoc-manager-web/pom.xml" />
+        <option value="$PROJECT_DIR$/../spoc-manager/spoc-manager-service/pom.xml" />
+        <option value="$PROJECT_DIR$/../spoc-manager/spoc-manager-web/src/main/java/com/spoc/controller/ItemController.java" />
       </list>
     </option>
   </component>
@@ -116,31 +120,16 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="spoc-common" type="b2602c69:ProjectViewProjectNode" />
-              <item name="generatorSqlmapCustom" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spoc-common" type="b2602c69:ProjectViewProjectNode" />
-              <item name="generatorSqlmapCustom" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
       <pane id="Scope" />
+      <pane id="ProjectPane" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555163365647" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../spoc-manager-web" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555325589555" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../generatorSqlmapCustom" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -149,19 +138,19 @@
     <property name="settings.editor.selected.configurable" value="spring" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/../spoc-manager/spoc-manager-service/src/main/resources" />
-      <recent name="$PROJECT_DIR$/../spoc-manager/spoc-manager-service/src/main" />
-      <recent name="$PROJECT_DIR$/../spoc-manager/spoc-manager-dao/src/main/java" />
-      <recent name="$PROJECT_DIR$/../spoc-manager/spoc-manager-pojo/src/main/java" />
-      <recent name="$PROJECT_DIR$/../spoc-manager/spoc-manager-web/src/main/resources/spring" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/../spoc-manager/spoc-manager-dao/src/main/java/com/spoc/mapper" />
       <recent name="$PROJECT_DIR$/../spoc-manager/spoc-manager-dao/src/main/resources/com.spoc.mapper" />
       <recent name="$PROJECT_DIR$/../spoc-manager/spoc-manager-web/src/main/resources/spring" />
       <recent name="$PROJECT_DIR$/../spoc-manager/spoc-manager-web/src/main/resources" />
       <recent name="$PROJECT_DIR$/../../../../5A9A48659A483FAD/商城架构搭建/e3商城_day01/黑马32期/01.教案-3.0/01.参考资料/mybatis/逆向工程/generatorSqlmapCustom" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/../spoc-manager/spoc-manager-web" />
+      <recent name="$PROJECT_DIR$/../spoc-manager/spoc-manager-web/src/main/resources/spring" />
+      <recent name="$PROJECT_DIR$/../spoc-manager/spoc-manager-web/src/main/resources" />
+      <recent name="$PROJECT_DIR$/../spoc-manager/spoc-manager-web/src/main" />
+      <recent name="$PROJECT_DIR$/../spoc-manager/spoc-manager-web/src/main/java" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -278,9 +267,9 @@
     </configuration>
     <list>
       <item itemvalue="Application.GeneratorSqlmap" />
+      <item itemvalue="Application.Test" />
       <item itemvalue="Maven.spoc-manager [clean,tomcat7:run]" />
       <item itemvalue="Maven.spoc-common [clean,install]" />
-      <item itemvalue="Application.Test" />
     </list>
     <recent_temporary>
       <list>
@@ -313,11 +302,15 @@
       <workItem from="1555038643716" duration="3495000" />
       <workItem from="1555073931529" duration="8041000" />
       <workItem from="1555126033815" duration="10263000" />
+      <workItem from="1555242222670" duration="740000" />
+      <workItem from="1555324015023" duration="1563000" />
+      <workItem from="1555325947899" duration="620000" />
+      <workItem from="1555326914557" duration="590000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="65255000" />
+    <option name="totallyTimeSpent" value="68768000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -331,13 +324,13 @@
   <component name="ToolWindowManager">
     <frame x="0" y="24" width="1366" height="681" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20333838" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.76500857" visible="true" weight="0.24203338" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Favorites" order="6" sideWeight="0.23499142" side_tool="true" weight="0.34597877" />
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -369,26 +362,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../spoc-manager/spoc-manager-dao/src/main/java/com/pojo/mapper/TbItemMapper.xml" />
-    <entry file="file://$PROJECT_DIR$/../spoc-manager/spoc-manager-dao/src/main/java/com/pojo/mapper/TbItemMapper.java" />
-    <entry file="file://$PROJECT_DIR$/../spoc-manager/spoc-manager-dao/src/main/java/com/pojo/mapper/TbItemDescMapper.java" />
-    <entry file="file://$PROJECT_DIR$/../../../../5A9A48659A483FAD/商城架构搭建/e3商城_day01/黑马32期/01.教案-3.0/01.参考资料/mybatis/逆向工程/generatorSqlmapCustom/generatorConfig.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="23" column="56" selection-start-line="23" selection-start-column="43" selection-end-line="23" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../../../5A9A48659A483FAD/商城架构搭建/e3商城_day01/黑马32期/01.教案-3.0/01.参考资料/mybatis/逆向工程/generatorSqlmapCustom/src/GeneratorSqlmap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../spoc-manager/spoc-manager-pojo/src/main/java/com/spoc/pojo/TbItemParamExample.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/../spoc-manager/spoc-manager-pojo/src/main/java/com/spoc/pojo/TbItemDesc.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -475,93 +448,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../spoc-manager/spoc-manager-web/src/main/resources/spring/applicationContext-trans.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="477">
-          <caret line="32" column="42" lean-forward="true" selection-start-line="32" selection-start-column="42" selection-end-line="32" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../spoc-manager/spoc-manager-web/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="410">
-          <caret line="39" column="34" lean-forward="true" selection-start-line="39" selection-start-column="34" selection-end-line="39" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../spoc-manager/spoc-manager-web/src/main/resources/spring/applicationContext-service.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="61" lean-forward="true" selection-start-line="10" selection-start-column="61" selection-end-line="10" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../spoc-manager/spoc-manager-web/src/main/resources/spring/springmvc.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="47" selection-start-line="9" selection-start-column="47" selection-end-line="9" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../spoc-manager/spoc-manager-web/src/main/resources/conf/log4j.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="254">
-          <caret line="17" column="43" selection-start-line="17" selection-start-column="43" selection-end-line="17" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../spoc-manager/spoc-manager-web/src/main/resources/spring/applicationContext-trans.xml" />
+    <entry file="file://$PROJECT_DIR$/../spoc-manager/spoc-manager-web/src/main/resources/spring/applicationContext-service.xml" />
+    <entry file="file://$PROJECT_DIR$/../spoc-manager/spoc-manager-web/src/main/resources/conf/log4j.properties" />
     <entry file="file://$PROJECT_DIR$/../spoc-manager/spoc-manager-dao/src/main/java/com/spoc/mapper/TbContentCategoryMapper.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/../spoc-manager/spoc-manager-web/src/main/java/com/spoc/controller/ItemController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="284">
-          <caret line="16" column="37" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../spoc-manager/spoc-manager-web/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="26" column="20" lean-forward="true" selection-start-line="26" selection-start-column="20" selection-end-line="26" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../spoc-manager/spoc-manager-web/src/main/resources/conf/db.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="23" lean-forward="true" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../spoc-manager/spoc-manager-web/src/main/resources/mybatis/SqlMapConfig.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="16" lean-forward="true" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../spoc-manager/spoc-manager-web/src/main/resources/spring/applicationContext-dao.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="29" column="74" selection-start-line="29" selection-start-column="74" selection-end-line="29" selection-end-column="74" />
-          <folding>
-            <element signature="e#1316#1329#0" expanded="true" />
-            <element signature="e#1435#1453#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../spoc-manager/spoc-manager-dao/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="58" column="21" selection-start-line="58" selection-start-column="21" selection-end-line="58" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../spoc-manager/spoc-manager-web/src/main/resources/mybatis/SqlMapConfig.xml" />
     <entry file="file://$PROJECT_DIR$/../spoc-manager/spoc-manager-web/spoc-manager-web.iml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1282" />
@@ -587,44 +480,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../spoc-manager/spoc-manager-service/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="474">
-          <caret line="55" lean-forward="true" selection-start-line="55" selection-end-line="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../spoc-manager-web/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="213">
-          <caret line="41" column="39" selection-start-line="41" selection-start-column="39" selection-end-line="41" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../spoc-manager/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="14" column="44" lean-forward="true" selection-start-line="14" selection-start-column="44" selection-end-line="14" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../spoc-manager-web/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-756">
-          <caret line="11" column="45" lean-forward="true" selection-start-line="11" selection-start-column="45" selection-end-line="11" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../spoc-manager-web/src/main/java/com/spoc/controller/ItemController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="18" column="59" lean-forward="true" selection-start-line="18" selection-start-column="59" selection-end-line="18" selection-end-column="59" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../spoc-manager-web/src/main/webapp/WEB-INF/web.xml" />
+    <entry file="file://$PROJECT_DIR$/../spoc-manager-web/pom.xml" />
+    <entry file="file://$PROJECT_DIR$/../spoc-manager-web/src/main/java/com/spoc/controller/ItemController.java" />
     <entry file="file://$PROJECT_DIR$/../../../../5A9A48659A483FAD/商城架构搭建/e3商城_day01/黑马32期/01.教案-3.0/01.参考资料/mybatis/逆向工程/generatorSqlmapCustom/src/Test2.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
@@ -639,6 +497,72 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../spoc-manager/spoc-manager-pojo/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../spoc-manager/spoc-manager-interface/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../spoc-manager/spoc-manager-dao/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="70">
+          <caret line="51" column="20" selection-start-line="51" selection-start-column="20" selection-end-line="51" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../spoc-manager/spoc-manager-web/web/WEB-INF/web.xml" />
+    <entry file="file://$PROJECT_DIR$/../spoc-manager/spoc-manager-web/src/main/resources/spring/springmvc.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../spoc-manager/spoc-manager-web/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../spoc-manager/spoc-manager-web/src/main/resources/conf/db.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../spoc-manager/spoc-manager-service/src/main/resources/spring/applicationContext-service.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../spoc-manager/spoc-manager-web/src/main/resources/spring/applicationContext-dao.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../spoc-manager/spoc-manager-service/src/main/resources/spring/applicationContext-trans.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../spoc-manager/spoc-manager-service/src/main/resources/spring/applicationContext-dao.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../spoc-manager/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="30" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../spoc-manager/spoc-manager-web/src/main/java/com/spoc/controller/ItemController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../spoc-manager/spoc-manager-web/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="49" column="20" selection-start-line="49" selection-start-column="20" selection-end-line="49" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../spoc-manager/spoc-manager-service/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="31" column="34" selection-start-line="31" selection-start-column="34" selection-end-line="31" selection-end-column="34" />
         </state>
       </provider>
     </entry>

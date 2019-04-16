@@ -9,7 +9,7 @@ import org.springframework.stereotype.Service;
 import com.spoc.pojo.TbItem;
 
 @Service
-public class itemServiceImpl implements ItemService {
+public class ItemServiceImpl implements ItemService {
 
     @Autowired
     private TbItemMapper itemMapper;

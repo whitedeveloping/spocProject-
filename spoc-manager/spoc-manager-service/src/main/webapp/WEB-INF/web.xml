@@ -26,6 +26,4 @@
         <param-value>classpath:conf/log4j.properties</param-value>
     </context-param>
 
-
-
 </web-app>
