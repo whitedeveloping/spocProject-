@@ -9,6 +9,7 @@
         http://code.alibabatech.com/schema/dubbo http://code.alibabatech.com/schema/dubbo/dubbo.xsd
         http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-4.2.xsd">
 
+    <!--配置扫描包-->
     <context:component-scan base-package="com.spoc.controller" />
     <mvc:annotation-driven />
     <!--配置视图解析器-->
@@ -17,8 +18,11 @@
         <property name="prefix" value="/WEB-INF/jsp/" />
         <property name="suffix" value=".jsp" />
     </bean>
+    <!--配置资源映射-->
+    <mvc:resources location="/js/" mapping="/js/**"/>
+    <mvc:resources location="/css/" mapping="/css/**"/>
     <!-- 引用dubbo服务 -->
     <dubbo:application name="spoc-manager-web"/>
-    <dubbo:registry protocol="zookeeper" address="192.168.1.137:2181"/>
+    <dubbo:registry protocol="zookeeper" address="192.168.0.100:2181"/>
     <dubbo:reference interface="com.spoc.service.ItemService" id="itemService" timeout="600000"/>
 </beans>

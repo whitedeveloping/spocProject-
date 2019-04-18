@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ExternalStorageConfigurationManager" enabled="true" />
   <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/../spoc-manager-web" />
+    <file type="web" url="file://$PROJECT_DIR$/spoc-manager-service" />
     <file type="web" url="file://$PROJECT_DIR$/spoc-manager-web" />
   </component>
   <component name="MavenProjectsManager">
@@ -10,6 +12,8 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/../spoc-common/pom.xml" />
         <option value="$PROJECT_DIR$/../spoc-parent/pom.xml" />
+        <option value="$PROJECT_DIR$/../spoc-manager-web/pom.xml" />
+        <option value="$PROJECT_DIR$/../pagehelper/pom.xml" />
       </list>
     </option>
   </component>
