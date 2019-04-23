@@ -13,6 +13,10 @@
         <module name="spoc-manager-pojo" />
         <module name="spoc-manager-service" />
         <module name="spoc-manager-web" />
+        <module name="spoc-sso-controller" />
+        <module name="spoc-sso-interface" />
+        <module name="spoc-sso-service" />
+        <module name="spoc-sso-web" />
       </profile>
     </annotationProcessing>
   </component>

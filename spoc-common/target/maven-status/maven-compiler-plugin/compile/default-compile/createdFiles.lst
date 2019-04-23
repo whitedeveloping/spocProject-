@@ -1,1 +1,4 @@
+com/common/jedis/JedisClientPool.class
+com/common/jedis/JedisClientCluster.class
+com/common/jedis/JedisClient.class
 com/common/pojo/EasyUIDataGridResult.class
