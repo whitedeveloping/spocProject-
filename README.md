@@ -24,5 +24,9 @@ https://blog.csdn.net/a532672728/article/details/78035559
 1.开始启动redis   ./redis-server redis-conf
 2.开启六台redis   ./start-all.sh   全部启动脚本
 3.在任意一个redis下以redis-cli -p 7002 -c启动即可
-
 4.单机版集群在测试时没有夹getter和setter方法  ,导致在配置文件中少property的属性 报错
+
+day10:
+
+
+

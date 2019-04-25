@@ -6,6 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="Mail" />
         <module name="pagehelper" />
         <module name="spoc-common" />
         <module name="spoc-manager-dao" />
@@ -13,11 +14,15 @@
         <module name="spoc-manager-pojo" />
         <module name="spoc-manager-service" />
         <module name="spoc-manager-web" />
-        <module name="spoc-sso-controller" />
-        <module name="spoc-sso-interface" />
-        <module name="spoc-sso-service" />
+        <module name="spoc-sso" />
         <module name="spoc-sso-web" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="spoc-sso-controller" target="1.8" />
+      <module name="spoc-sso-dao" target="1.8" />
+      <module name="spoc-sso-interface" target="1.8" />
+      <module name="spoc-sso-service" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>

@@ -1,12 +1,12 @@
 package com.common.jedis;
 
-import org.springframework.beans.factory.annotation.Autowired;
+
 
 import redis.clients.jedis.JedisCluster;
 
 public class JedisClientCluster implements JedisClient {
-	
-	@Autowired
+
+
 	private JedisCluster jedisCluster;
 
 	public JedisCluster getJedisCluster() {
