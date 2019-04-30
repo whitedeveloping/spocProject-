@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d2c704cd-510b-41c5-9533-b98a21601541" name="Default Changelist" comment="" />
-    <ignored path="$PROJECT_DIR$/out/" />
+    <list default="true" id="71bb126e-bd58-4b10-bd4c-a7b25a5339ad" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,10 +19,10 @@
     </leaf>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1499" />
-    <option name="y" value="93" />
-    <option name="width" value="1791" />
-    <option name="height" value="826" />
+    <option name="x" value="1712" />
+    <option name="y" value="101" />
+    <option name="width" value="1346" />
+    <option name="height" value="559" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -31,8 +30,8 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -58,27 +57,27 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="d2c704cd-510b-41c5-9533-b98a21601541" name="Default Changelist" comment="" />
-      <created>1556006749673</created>
+      <changelist id="71bb126e-bd58-4b10-bd4c-a7b25a5339ad" name="Default Changelist" comment="" />
+      <created>1556253477759</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1556006749673</updated>
-      <workItem from="1556006760746" duration="18000" />
+      <updated>1556253477759</updated>
+      <workItem from="1556253482783" duration="26000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18000" />
+    <option name="totallyTimeSpent" value="26000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1499" y="93" width="1791" height="826" extended-state="0" />
+    <frame x="1712" y="101" width="1346" height="559" extended-state="0" />
     <layout>
       <window_info id="Image Layers" />
       <window_info id="Designer" />
       <window_info id="UI Designer" />
       <window_info id="Capture Tool" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2685026" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3605547" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" />

@@ -19,7 +19,7 @@
 <body>
 		<!-- header -->
 		<div class="header">
-			<a href="http://www.e3mall.cn"><img src="/images/logo.png" border="0" /><span>欢迎注册</span></a>
+			<a href="http://www.e3mall.cn"><img src="/images/logos.png" border="0" style="width: 224px; height: 75px;"/><span>欢迎注册</span></a>
 		</div>
 
 		<!--mainStart-->
@@ -79,7 +79,7 @@
             <li class="regPl88">
 			<span  class="regM" style="margin-left:29px">
 				<input id="AgreeId" name="AgreeId" type="checkbox" checked="" onclick="ckAgree();">
-				<a href="https://passport.e3mall.cn/xy.html" target="_blank"  class="checkTitle">我已阅读并同意<font style="font-size:12px;">《宜立方商城用户注册协议》</font></a>
+				<a href="https://passport.e3mall.cn/xy.html" target="_blank"  class="checkTitle">我已阅读并同意<font style="font-size:12px;">《教学SPOC用户注册协议》</font></a>
 			</span>
                 <span  id="AgreeIdErr" ></span>
             </li>
@@ -96,23 +96,23 @@
 <!--mainOver-->
 
 		<!--footerStart-->
-		<div class="footer">
-			<span>
-				<a href="http://www.e3mall.cn/www/379/5109.html" rel="nofollow" class="footerlink1">关于我们</a> | 
-				<a href="http://www.e3mall.cn/www/380/5116.html" rel="nofollow" class="footerlink1">联系我们</a> | 
-				<a href="http://www.e3mall.cn/www/381/5117.html" rel="nofollow" class="footerlink1">招聘人才</a> | 
-				<a href="http://www.e3mall.cn/www/330/2705.html" rel="nofollow" class="footerlink1">友情链接</a> | 
-				<a href="http://supplier.e3mall.cn/supplierApply" rel="nofollow" class="footerlink1">供应商申请</a>
-			</span>
-			<p> 
-				北京宜立方电子商务有限公司<br />
-				北京市公安局顺义分局备案11011302000890号|<a href="http://www.miibeian.gov.cn" target="_blank" rel="nofollow" class="footerlink1">京ICP备12011349号</a>|<a href="http://www.e3mall.cn/www/174/461.html" target="_blank" rel="nofollow" class="footerlink1">企业营业执照</a><br />
-				Copyright© 宜立方商城 e3mall.cn 版权所有<br /> 
-			</p>
-		</div>
+		<%--<div class="footer">--%>
+			<%--<span>--%>
+				<%--<a href="http://www.e3mall.cn/www/379/5109.html" rel="nofollow" class="footerlink1">关于我们</a> | --%>
+				<%--<a href="http://www.e3mall.cn/www/380/5116.html" rel="nofollow" class="footerlink1">联系我们</a> | --%>
+				<%--<a href="http://www.e3mall.cn/www/381/5117.html" rel="nofollow" class="footerlink1">招聘人才</a> | --%>
+				<%--<a href="http://www.e3mall.cn/www/330/2705.html" rel="nofollow" class="footerlink1">友情链接</a> | --%>
+				<%--<a href="http://supplier.e3mall.cn/supplierApply" rel="nofollow" class="footerlink1">供应商申请</a>--%>
+			<%--</span>--%>
+			<%--<p> --%>
+				<%--北京宜立方电子商务有限公司<br />--%>
+				<%--北京市公安局顺义分局备案11011302000890号|<a href="http://www.miibeian.gov.cn" target="_blank" rel="nofollow" class="footerlink1">京ICP备12011349号</a>|<a href="http://www.e3mall.cn/www/174/461.html" target="_blank" rel="nofollow" class="footerlink1">企业营业执照</a><br />--%>
+				<%--Copyright© 宜立方商城 e3mall.cn 版权所有<br /> --%>
+			<%--</p>--%>
+		<%--</div>--%>
 		<!-- /footer -->
 <script type="text/javascript">
-	var REGISTER={
+	var  REGISTER={
 		param:{
 			//单点登录系统的url
 			surl:""
@@ -139,7 +139,7 @@
 			}
 			return flag;
 		},
-		beforeSubmit:function() {
+		beforeSubmit:function()  {
 				//检查用户是否已经被占用
 				$.ajax({
 	            	url : REGISTER.param.surl + "/user/check/"+escape($("#regName").val())+"/1?r=" + Math.random(),

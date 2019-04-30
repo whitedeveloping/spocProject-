@@ -26,7 +26,13 @@ https://blog.csdn.net/a532672728/article/details/78035559
 3.在任意一个redis下以redis-cli -p 7002 -c启动即可
 4.单机版集群在测试时没有夹getter和setter方法  ,导致在配置文件中少property的属性 报错
 
-day10:
+day10和day11:
+单点登录遇到的问题:
+首先借用SOA架构,
+1.因为在spoc-manager-web模块需要得到spoc-sso-web的用户数据,传送过程中遇到跨域的问题,使用jsonp解决,
+2.在修改了js文件后,页面刷新没效果:最后解决了  是因为浏览器默认缓存了js文件,清除缓存即可
+
+
 
 
 

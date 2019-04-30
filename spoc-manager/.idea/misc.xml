@@ -18,9 +18,9 @@
         <option value="$PROJECT_DIR$/../spoc-parent/pom.xml" />
         <option value="$PROJECT_DIR$/../spoc-manager-web/pom.xml" />
         <option value="$PROJECT_DIR$/../pagehelper/pom.xml" />
-        <option value="$PROJECT_DIR$/../spoc-sso/pom.xml" />
         <option value="$PROJECT_DIR$/../spoc-sso-web/pom.xml" />
         <option value="$PROJECT_DIR$/../spoc-user/pom.xml" />
+        <option value="$PROJECT_DIR$/../spoc-sso/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

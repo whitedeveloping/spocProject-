@@ -3,7 +3,7 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>宜立方商城后台管理系统</title>
+<title>在线SPOC后台管理系统</title>
 <link rel="stylesheet" type="text/css" href="js/jquery-easyui-1.4.1/themes/gray/easyui.css" />
 <link rel="stylesheet" type="text/css" href="js/jquery-easyui-1.4.1/themes/icon.css" />
 <link rel="stylesheet" type="text/css" href="css/e3.css" />
@@ -12,6 +12,8 @@
 <script type="text/javascript" src="js/jquery-easyui-1.4.1/jquery.easyui.min.js"></script>
 <script type="text/javascript" src="js/jquery-easyui-1.4.1/locale/easyui-lang-zh_CN.js"></script>
 <script type="text/javascript" src="js/common.js"></script>
+<script type="text/javascript" src="js/e3mall.js"></script>
+<script type="text/javascript" src="js/jquery.cookie.js"></script>
 <style type="text/css">
 	.content {
 		padding: 10px 10px 10px 10px;
@@ -21,8 +23,13 @@
 <body class="easyui-layout">
     <!-- 头部标题 -->
 	<div data-options="region:'north',border:false" style="height:60px; padding:5px; background:#F3F3F3"> 
-		<span class="northTitle">宜立方商城后台管理系统</span>
-	    <span class="loginInfo">登录用户：admin&nbsp;&nbsp;姓名：管理员&nbsp;&nbsp;角色：系统管理员</span>
+		<span class="northTitle">在线SPOC后台管理系统</span>
+	    <%--<span class="loginInfo">登录用户：admin&nbsp;&nbsp;姓名：管理员&nbsp;&nbsp;角色：系统管理员</span>--%>
+		<span id ="loginbar" style="margin-right: 15px;" class="loginInfo">
+			<a href="http://localhost:8088/page/login">请登录</a>
+		</span>
+
+		<a href="http://localhost:8088/page/register">免费注册</a>
 	</div>
     <div data-options="region:'west',title:'菜单',split:true" style="width:180px;">
     	<ul id="menu" class="easyui-tree" style="margin-top: 10px;margin-left: 5px;">

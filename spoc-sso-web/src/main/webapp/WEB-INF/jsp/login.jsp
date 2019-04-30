@@ -4,7 +4,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=gb2312"/>
-    <title>登录淘淘</title>
+    <title>登录SPOC</title>
        <link rel="stylesheet" type="text/css" href="/css/jquery.alerts.css" />
 <link rel="stylesheet" type="text/css" href="/css/headerfooterindex.css" />
 <link rel="stylesheet" type="text/css" href="/css/login.css" />
@@ -18,12 +18,12 @@
 <body>
 	<!-- header -->
 	<div class="header">
-		<a href="http://www.e3mall.cn"><img src="/images/logo.png" border="0"><span>欢迎登录</span></a>
+		<a href="http://www.e3mall.cn"><img src="/images/logos.png" border="0" style="width: 224px; height: 75px;"><span>欢迎登录</span></a>
 	</div>
 	<!-- login_main -->
 	<div class="login_main clear">
 		<div class="pic">
-			<a href="http://www.e3mall.cn/html/activity/1472720729.html" target="_blank"><img src="/images/06f42c372620f92b40da77a8b23cdf7f.png"></a>
+			<a href="http://www.e3mall.cn/html/activity/1472720729.html" target="_blank"><img src="/images/case_bg.jpg" style="width: 520px; height: 340px;"></a>
 		</div>
 		<!-- login -->
 		<div class="login">
@@ -93,27 +93,27 @@
 				</div>
 
 
-				<ul class="blink">
-					<li class="p-f10">
-						<h2 class="h2">合作网站账户登录：</h2>
-						<div>
-							<a href="http://api2.e3mall.cn/unionlogin/qq/oauth/qq_login.php?returnUrl=http://www.e3mall.cn/" class="link">QQ</a>&nbsp;|&nbsp; <a href="https://api.weibo.com/oauth2/authorize?client_id=1800908332&amp;redirect_uri=https%3A%2F%2Fpassport.e3mall.cn%2Fcallback%2Fsina&amp;response_type=code&amp;state=&amp;display=?returnUrl=http://www.e3mall.cn/" class="link">新浪微博</a> &nbsp;|&nbsp; <a href="https://open.t.qq.com/cgi-bin/oauth2/authorize?client_id=801198099&amp;redirect_uri=https%3A%2F%2Fpassport.e3mall.cn%2Fcallback%2Fqq&amp;response_type=code&amp;type=?returnUrl=http://www.e3mall.cn/" class="link">腾讯微博</a> &nbsp;|&nbsp; <a href="http://api2.e3mall.cn/unionlogin/alipay.php?returnUrl=http://www.e3mall.cn/" class="link">支付宝</a>
-						</div>
-					</li>
-				</ul>
+				<%--<ul class="blink">--%>
+					<%--<li class="p-f10">--%>
+						<%--<h2 class="h2">合作网站账户登录：</h2>--%>
+						<%--<div>--%>
+							<%--<a href="http://api2.e3mall.cn/unionlogin/qq/oauth/qq_login.php?returnUrl=http://www.e3mall.cn/" class="link">QQ</a>&nbsp;|&nbsp; <a href="https://api.weibo.com/oauth2/authorize?client_id=1800908332&amp;redirect_uri=https%3A%2F%2Fpassport.e3mall.cn%2Fcallback%2Fsina&amp;response_type=code&amp;state=&amp;display=?returnUrl=http://www.e3mall.cn/" class="link">新浪微博</a> &nbsp;|&nbsp; <a href="https://open.t.qq.com/cgi-bin/oauth2/authorize?client_id=801198099&amp;redirect_uri=https%3A%2F%2Fpassport.e3mall.cn%2Fcallback%2Fqq&amp;response_type=code&amp;type=?returnUrl=http://www.e3mall.cn/" class="link">腾讯微博</a> &nbsp;|&nbsp; <a href="http://api2.e3mall.cn/unionlogin/alipay.php?returnUrl=http://www.e3mall.cn/" class="link">支付宝</a>--%>
+						<%--</div>--%>
+					<%--</li>--%>
+				<%--</ul>--%>
 			</div>
 		</div>
 		<!-- /login -->
 	</div>
 	<!-- /login_main -->
-	<div class="footer">
-		<span> <a href="http://www.e3mall.cn/www/379/5109.html" rel="nofollow" class="footerlink1">关于我们</a> | <a href="http://www.e3mall.cn/www/380/5116.html" rel="nofollow" class="footerlink1">联系我们</a> | <a href="http://www.e3mall.cn/www/381/5117.html" rel="nofollow" class="footerlink1">招聘人才</a> | <a href="http://www.e3mall.cn/www/330/2705.html" rel="nofollow" class="footerlink1">友情链接</a> | <a href="http://supplier.e3mall.cn/supplierApply" rel="nofollow" class="footerlink1">供应商申请</a>
-		</span>
-		<p>
-			北京宜立方电子商务有限公司<br> 北京市公安局顺义分局备案11011302000890号|<a href="http://www.miibeian.gov.cn" target="_blank" rel="nofollow" class="footerlink1">京ICP备12011349号</a>|<a href="http://www.e3mall.cn/www/174/461.html" target="_blank" rel="nofollow" class="footerlink1">企业营业执照</a><br> Copyright© 宜立方商城
-			e3mall.cn 版权所有<br>
-		</p>
-	</div>
+	<%--<div class="footer">--%>
+		<%--<span> <a href="http://www.e3mall.cn/www/379/5109.html" rel="nofollow" class="footerlink1">关于我们</a> | <a href="http://www.e3mall.cn/www/380/5116.html" rel="nofollow" class="footerlink1">联系我们</a> | <a href="http://www.e3mall.cn/www/381/5117.html" rel="nofollow" class="footerlink1">招聘人才</a> | <a href="http://www.e3mall.cn/www/330/2705.html" rel="nofollow" class="footerlink1">友情链接</a> | <a href="http://supplier.e3mall.cn/supplierApply" rel="nofollow" class="footerlink1">供应商申请</a>--%>
+		<%--</span>--%>
+		<%--<p>--%>
+			<%--北京宜立方电子商务有限公司<br> 北京市公安局顺义分局备案11011302000890号|<a href="http://www.miibeian.gov.cn" target="_blank" rel="nofollow" class="footerlink1">京ICP备12011349号</a>|<a href="http://www.e3mall.cn/www/174/461.html" target="_blank" rel="nofollow" class="footerlink1">企业营业执照</a><br> Copyright© 宜立方商城--%>
+			<%--e3mall.cn 版权所有<br>--%>
+		<%--</p>--%>
+	<%--</div>--%>
 	<!-- /footer -->
 	<script type="text/javascript">
 	var redirectUrl = "${redirect}";
@@ -138,7 +138,7 @@
 					if (data.status == 200) {
 						jAlert('登录成功！',"提示", function(){
 							if (redirectUrl == "") {
-								location.href = "http://localhost:8082";
+								location.href = "http://localhost:8081";
 							} else {
 								location.href = redirectUrl;
 							}
