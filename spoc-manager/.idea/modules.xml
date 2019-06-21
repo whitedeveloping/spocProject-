@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../spoc-sso/spoc-sso-interface/spoc-sso-interface.iml" filepath="$PROJECT_DIR$/../spoc-sso/spoc-sso-interface/spoc-sso-interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../spoc-sso/spoc-sso-service/spoc-sso-service.iml" filepath="$PROJECT_DIR$/../spoc-sso/spoc-sso-service/spoc-sso-service.iml" />
+    </modules>
+  </component>
+</project>
