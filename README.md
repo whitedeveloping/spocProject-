@@ -32,6 +32,17 @@ day10和day11:
 1.因为在spoc-manager-web模块需要得到spoc-sso-web的用户数据,传送过程中遇到跨域的问题,使用jsonp解决,
 2.在修改了js文件后,页面刷新没效果:最后解决了  是因为浏览器默认缓存了js文件,清除缓存即可
 
+最后检查:
+1.视频部分使用ffmpeg音视频工具进行转码  播放  缩略图的实现,本来的目的是使用ffmpeg工具把mp4 avi 等等之类的视频格式转为通常使用的fiv格式,因为fiv相对来说文件较小,易于存储和操作,但是由于原始是使用ffmpeg.exe进行实现,在linux不太容易转化,所以这块其他格式的音视频资源未进行正确转码
+2.由于视频网站相对而言带宽需求极大,所以更好的选择是搭建视频服务器,将视频存储在视频服务器上,但是由于服务器搭建困难,仍未完成,只能把视频资源存储在toncat服务器上,这样性能较差 
+
+自己尝试实现Nginx+Tomcat集群
+1.开始使用tomcat8.5.38,在bin下使用start.sh启动后一直访问不了8080端口,最后尝试使用tomcat9.0.21成功访问
+2.Nginx安装后可以使用nginx命令直接启动或者使用service nginx start启动  但是莫名其妙不能使用service nginx stop进行关闭,当使用pkill -9 nginx关闭后就无法启动,无论是通过nginx还是service nginx start命令,最终尝试可以使用service nginx restart重新启动
+3.tomcat集群最开始修改其他tomcat节点的port,最后在nginx.conf配置文件中添加节点的域名即可
+
+
+
 
 
 
