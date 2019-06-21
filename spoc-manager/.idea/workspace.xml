@@ -1,5 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="Mail:war" />
+      <artifact name="Mail:war exploded" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="f151545a-3a03-476c-b31c-e916201a796e" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -11,6 +17,15 @@
     <ignored path="$PROJECT_DIR$/spoc-manager-web/target/" />
     <ignored path="$PROJECT_DIR$/../spoc-common/target/" />
     <ignored path="$PROJECT_DIR$/../spoc-parent/target/" />
+    <ignored path="$PROJECT_DIR$/../spoc-manager-web/target/" />
+    <ignored path="$PROJECT_DIR$/../pagehelper/target/" />
+    <ignored path="$PROJECT_DIR$/../spoc-sso/target/" />
+    <ignored path="$PROJECT_DIR$/../spoc-sso/spoc-sso-interface/target/" />
+    <ignored path="$PROJECT_DIR$/../spoc-sso/spoc-sso-service/target/" />
+    <ignored path="$PROJECT_DIR$/../spoc-sso-web/target/" />
+    <ignored path="$PROJECT_DIR$/../spoc-sso/spoc-sso-controller/target/" />
+    <ignored path="$PROJECT_DIR$/../spoc-sso/spoc-sso-dao/target/" />
+    <ignored path="$PROJECT_DIR$/../spoc-user/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,37 +33,118 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../spoc-manager-web/src/main/webapp/WEB-INF/jsp/index.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="172">
+              <caret line="28" column="62" lean-forward="true" selection-start-line="28" selection-start-column="62" selection-end-line="28" selection-end-column="62" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../spoc-manager-web/src/main/webapp/js/e3mall.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="247">
+              <caret line="13" column="99" lean-forward="true" selection-start-line="13" selection-start-column="99" selection-end-line="13" selection-end-column="99" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="mapper" />
         <option value="Jsp File" />
+        <option value="applicationContext-dao.xml" />
+        <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
       <find>com.github.pagehelper</find>
+      <find>pagehelper</find>
+      <find>redis</find>
+      <find>Redis</find>
+      <find>jedis</find>
+      <find>Dru</find>
+      <find>ju</find>
     </findStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$/../spoc-sso</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../spoc-user" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/spoc-manager-pojo/pom.xml" />
-        <option value="$PROJECT_DIR$/spoc-manager-interface/pom.xml" />
-        <option value="$PROJECT_DIR$/spoc-manager-web/src/main/webapp/index.jsp" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/spoc-manager-web/src/main/webapp/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/spoc-manager-web/src/main/java/com/spoc/controller/ItemController.java" />
+        <option value="$PROJECT_DIR$/../spoc-user/src/main/java/yp/Mail/controller/ReceiverController.java" />
+        <option value="$PROJECT_DIR$/../spoc-user/src/main/resources/conf/db.properties" />
+        <option value="$PROJECT_DIR$/../spoc-user/src/main/java/yp/Mail/service/impl/UserService.java" />
+        <option value="$PROJECT_DIR$/../spoc-user/src/main/java/yp/Mail/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/../spoc-user/src/main/resources/spring/applicationContext-dao.xml" />
+        <option value="$PROJECT_DIR$/../spoc-user/src/main/resources/spring/applicationContext-service.xml" />
+        <option value="$PROJECT_DIR$/../spoc-user/src/main/resources/spring/applicationContext-trans.xml" />
+        <option value="$PROJECT_DIR$/../spoc-user/src/main/resources/springmvc.xml" />
+        <option value="$PROJECT_DIR$/../spoc-user/src/main/java/spoc/sso/mapper/UserMapper.java" />
+        <option value="$PROJECT_DIR$/../spoc-user/src/main/java/spoc/sso/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/../spoc-user/src/main/java/spoc/sso/mapper/UserMapper.xml" />
+        <option value="$PROJECT_DIR$/../spoc-user/src/main/java/spoc/sso/service/impl/LoginServiceImpl.java" />
+        <option value="$PROJECT_DIR$/../spoc-user/src/main/java/spoc/sso/service/impl/TbUserMapper.java" />
+        <option value="$PROJECT_DIR$/../spoc-user/src/main/java/spoc/sso/service/impl/UserService.java" />
+        <option value="$PROJECT_DIR$/../spoc-common/src/main/java/com/common/jedis/JedisClient.java" />
+        <option value="$PROJECT_DIR$/spoc-manager-service/src/main/resources/spring/applicationContext-redis.xml" />
+        <option value="$PROJECT_DIR$/../spoc-common/src/main/java/com/common/jedis/JedisClientCluster.java" />
+        <option value="$PROJECT_DIR$/../spoc-common/src/main/java/com/common/jedis/JedisClientPool.java" />
+        <option value="$PROJECT_DIR$/spoc-manager-service/src/test/java/com/Jedis/JedisTest.java" />
+        <option value="$PROJECT_DIR$/spoc-manager-service/src/test/java/com/Jedis/jedisClientest.java" />
         <option value="$PROJECT_DIR$/spoc-manager-service/pom.xml" />
-        <option value="$PROJECT_DIR$/spoc-manager-web/pom.xml" />
-        <option value="$PROJECT_DIR$/spoc-manager-dao/src/main/java/com/spoc/mapper/TbItemMapper.xml" />
-        <option value="$PROJECT_DIR$/spoc-manager-dao/src/main/java/com/spoc/mapper/TbItemParamMapper.java" />
-        <option value="$PROJECT_DIR$/spoc-manager-dao/pom.xml" />
+        <option value="$PROJECT_DIR$/../spoc-sso/pom.xml" />
+        <option value="$PROJECT_DIR$/../spoc-sso/spoc-sso-service/src/main/resources/spring/applicationContext-trans.xml" />
+        <option value="$PROJECT_DIR$/../spoc-sso/spoc-sso-service/pom.xml" />
+        <option value="$PROJECT_DIR$/../spoc-sso-web/pom.xml" />
+        <option value="$PROJECT_DIR$/../spoc-sso/spoc-sso-service/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/../spoc-sso-web/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/../spoc-common/src/main/java/com/common/utils/E3Result.java" />
+        <option value="$PROJECT_DIR$/../spoc-sso/spoc-sso-interface/pom.xml" />
+        <option value="$PROJECT_DIR$/../spoc-sso/spoc-sso-interface/src/main/java/com/sso/service/RegisterService.java" />
+        <option value="$PROJECT_DIR$/../spoc-sso/spoc-sso-service/src/main/java/com/sso/service/impl/RegisterServiceImpl.java" />
+        <option value="$PROJECT_DIR$/../spoc-sso-web/src/main/java/com/sso/controller/RegisterController.java" />
+        <option value="$PROJECT_DIR$/../spoc-sso/spoc-sso-interface/src/main/java/com/sso/service/LoginService.java" />
+        <option value="$PROJECT_DIR$/spoc-manager-service/src/main/resources/spring/applicationContext-dao.xml" />
+        <option value="$PROJECT_DIR$/../spoc-common/src/main/java/com/common/utils/JsonUtils.java" />
+        <option value="$PROJECT_DIR$/../spoc-common/pom.xml" />
+        <option value="$PROJECT_DIR$/../spoc-common/src/main/java/com/common/utils/CookieUtils.java" />
+        <option value="$PROJECT_DIR$/../spoc-sso-web/src/main/resources/conf/resource.properties" />
+        <option value="$PROJECT_DIR$/../spoc-sso-web/src/main/java/com/sso/controller/LoginController.java" />
+        <option value="$PROJECT_DIR$/../spoc-sso/spoc-sso-service/src/main/resources/conf/resource.properties" />
+        <option value="$PROJECT_DIR$/../spoc-sso/spoc-sso-service/src/main/java/com/sso/service/impl/LoginServiceImpl.java" />
+        <option value="$PROJECT_DIR$/../spoc-sso/spoc-sso-service/src/main/resources/spring/applicationContext-dao.xml" />
+        <option value="$PROJECT_DIR$/../spoc-sso-web/src/main/webapp/WEB-INF/jsp/register.jsp" />
+        <option value="$PROJECT_DIR$/../spoc-sso/spoc-sso-interface/src/main/java/com/sso/service/TokenService.java" />
+        <option value="$PROJECT_DIR$/../spoc-sso/spoc-sso-service/src/main/resources/spring/applicationContext-service.xml" />
+        <option value="$PROJECT_DIR$/../spoc-sso-web/src/main/resources/spring/springmvc.xml" />
+        <option value="$PROJECT_DIR$/../spoc-sso/spoc-sso-service/src/main/java/com/sso/service/impl/TokenServiceImpl.java" />
+        <option value="$PROJECT_DIR$/../spoc-sso-web/src/main/java/com/sso/controller/TokenController.java" />
+        <option value="$PROJECT_DIR$/../spoc-sso-web/src/main/webapp/WEB-INF/jsp/login.jsp" />
+        <option value="$PROJECT_DIR$/../spoc-manager-web/src/main/webapp/WEB-INF/jsp/index.jsp" />
+        <option value="$PROJECT_DIR$/../spoc-manager-web/src/main/webapp/js/e3mall.js" />
       </list>
     </option>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -57,47 +153,109 @@
       </MavenImportingSettings>
     </option>
   </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="10" />
-    <option name="y" value="64" />
-    <option name="width" value="1346" />
-    <option name="height" value="641" />
+    <option name="x" value="1531" />
+    <option name="y" value="148" />
+    <option name="width" value="1356" />
+    <option name="height" value="620" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="spoc-manager" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spoc-manager" type="462c0819:PsiDirectoryNode" />
+              <item name="spoc-manager-web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spoc-manager" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spoc-manager-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spoc-manager" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spoc-manager-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spoc-manager" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spoc-manager-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spoc-manager" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spoc-manager-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spoc-manager" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spoc-manager-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spoc-manager" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spoc-manager-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="jsp" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555340656564" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../5A9A48659A483FAD/商城架构搭建/e3商城_day01/黑马32期/01.教案-3.0/01.参考资料/mybatis/逆向工程/generatorSqlmapCustom" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556609173582" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../spoc-sso-web" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.31696814" />
+    <property name="project.structure.side.proportion" value="0.25992063" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/../spoc-sso/src/main/java/spoc/sso/mapper" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/spoc-manager-pojo/src/main/java/com/spoc/pojo" />
-      <recent name="$PROJECT_DIR$/spoc-manager-dao/src/main/java/com/spoc/mapper" />
+      <recent name="$PROJECT_DIR$/../spoc-manager-web/src/main/webapp/js" />
+      <recent name="$PROJECT_DIR$/../spoc-sso-web/src/main/webapp/images" />
+      <recent name="$PROJECT_DIR$/../spoc-sso-web/src/main/resources/conf" />
+      <recent name="$PROJECT_DIR$/../spoc-common/src/main/java/com/common/utils" />
+      <recent name="$PROJECT_DIR$/../spoc-sso/spoc-sso-service/src/main/resources/conf" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="yp.Mail.service.impl" />
+      <recent name="Impl" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="spoc.sso.service.impl" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -112,8 +270,71 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Maven.spoc-manager [clean,tomcat7:run]">
-    <configuration name="[clean,install]" type="MavenRunConfiguration" factoryName="Maven" nameIsGenerated="true">
+  <component name="RunManager" selected="Maven.spoc-sso-interface [clean,install]">
+    <configuration name="jedisClientest.testJedisClient" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spoc-manager-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.Jedis.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.Jedis" />
+      <option name="MAIN_CLASS_NAME" value="com.Jedis.jedisClientest" />
+      <option name="METHOD_NAME" value="testJedisClient" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <module name="pagehelper" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+      <module name="pagehelper" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Mail [clean,tomcat7:run]" type="MavenRunConfiguration" factoryName="Maven" nameIsGenerated="true">
       <MavenSettings>
         <option name="myGeneralSettings" />
         <option name="myRunnerSettings" />
@@ -125,7 +346,7 @@
             <option name="goals">
               <list>
                 <option value="clean" />
-                <option value="install" />
+                <option value="tomcat7:run" />
               </list>
             </option>
             <option name="pomFileName" />
@@ -133,7 +354,7 @@
               <map />
             </option>
             <option name="resolveToWorkspace" value="false" />
-            <option name="workingDirPath" value="$PROJECT_DIR$/../spoc-parent" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/../spoc-user" />
           </MavenRunnerParameters>
         </option>
       </MavenSettings>
@@ -165,13 +386,210 @@
       </MavenSettings>
       <method v="2" />
     </configuration>
+    <configuration name="spoc-manager-web [clean,tomcat7:run]" type="MavenRunConfiguration" factoryName="Maven" nameIsGenerated="true">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="clean" />
+                <option value="tomcat7:run" />
+              </list>
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/../spoc-manager-web" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <configuration name="spoc-sso [clean, tomcat7:run]" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="clean" />
+                <option value="tomcat7:run" />
+              </list>
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/../spoc-sso" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <configuration name="spoc-sso-interface [clean,install]" type="MavenRunConfiguration" factoryName="Maven" nameIsGenerated="true">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="clean" />
+                <option value="install" />
+              </list>
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/../spoc-sso/spoc-sso-interface" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <configuration name="spoc-sso-web [clean,tomcat7:run]" type="MavenRunConfiguration" factoryName="Maven" nameIsGenerated="true">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="clean" />
+                <option value="tomcat7:run" />
+              </list>
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/../spoc-sso-web" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <configuration name="Tomcat 8.5.38" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.38" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/" />
+      <option name="BROWSER_ID" value="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="Mail:war">
+          <settings>
+            <option name="CONTEXT_PATH" value="/Mail_war" />
+          </settings>
+        </artifact>
+        <artifact name="Mail:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/user" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_spoc-manager" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="40770" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="Mail:war" />
+          <artifact name="Mail:war exploded" />
+        </option>
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
+      <item itemvalue="JUnit.jedisClientest.testJedisClient" />
       <item itemvalue="Maven.spoc-manager [clean,tomcat7:run]" />
-      <item itemvalue="Maven.[clean,install]" />
+      <item itemvalue="Maven.spoc-manager-web [clean,tomcat7:run]" />
+      <item itemvalue="Maven.Mail [clean,tomcat7:run]" />
+      <item itemvalue="Maven.spoc-sso [clean, tomcat7:run]" />
+      <item itemvalue="Maven.spoc-sso-interface [clean,install]" />
+      <item itemvalue="Maven.spoc-sso-web [clean,tomcat7:run]" />
+      <item itemvalue="Tomcat Server.Tomcat 8.5.38" />
     </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.jedisClientest.testJedisClient" />
+      </list>
+    </recent_temporary>
   </component>
-  <component name="SvnConfiguration">
-    <configuration />
+  <component name="SvnConfiguration" cleanupOnStartRun="true">
+    <configuration>$USER_HOME$/.subversion</configuration>
+    <supportedVersion>125</supportedVersion>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -183,16 +601,75 @@
       <workItem from="1554370097978" duration="8033000" />
       <workItem from="1554534475741" duration="1163000" />
       <workItem from="1555331204352" duration="6317000" />
+      <workItem from="1555573266114" duration="13610000" />
+      <workItem from="1555640644472" duration="696000" />
+      <workItem from="1555768802104" duration="215000" />
+      <workItem from="1555945550929" duration="926000" />
+      <workItem from="1555985346281" duration="12066000" />
+      <workItem from="1556001438528" duration="37353000" />
+      <workItem from="1556061588791" duration="1430000" />
+      <workItem from="1556066373639" duration="56000" />
+      <workItem from="1556066517127" duration="115000" />
+      <workItem from="1556066910834" duration="3738000" />
+      <workItem from="1556094008194" duration="2097000" />
+      <workItem from="1556113252637" duration="2521000" />
+      <workItem from="1556176312622" duration="1561000" />
+      <workItem from="1556183083537" duration="1137000" />
+      <workItem from="1556198054193" duration="7525000" />
+      <workItem from="1556206722594" duration="2569000" />
+      <workItem from="1556209389698" duration="358000" />
+      <workItem from="1556252371643" duration="48401000" />
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="jedisClientest_testJedisClient - 2019.04.23 at 12h 30m 31s.xml">
+      <configuration name="jedisClientest.testJedisClient" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="jedisClientest_testJedisClient - 2019.04.23 at 12h 40m 54s.xml">
+      <configuration name="jedisClientest.testJedisClient" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="JedisTest_testJedis - 2019.04.23 at 13h 05m 24s.xml">
+      <configuration name="JedisTest.testJedis" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="jedisClientest_testJedisClient - 2019.04.23 at 13h 06m 59s.xml">
+      <configuration name="jedisClientest.testJedisClient" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="jedisClientest_testJedisClient - 2019.04.23 at 13h 13m 37s.xml">
+      <configuration name="jedisClientest.testJedisClient" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="jedisClientest_testJedisClient - 2019.04.23 at 13h 14m 24s.xml">
+      <configuration name="jedisClientest.testJedisClient" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="jedisClientest_testJedisClient - 2019.04.23 at 13h 28m 04s.xml">
+      <configuration name="jedisClientest.testJedisClient" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="jedisClientest_testJedisClient - 2019.04.23 at 14h 15m 39s.xml">
+      <configuration name="jedisClientest.testJedisClient" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="jedisClientest_testJedisClient - 2019.04.23 at 15h 41m 07s.xml">
+      <configuration name="jedisClientest.testJedisClient" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="jedisClientest_testJedisClient - 2019.04.25 at 22h 23m 40s.xml">
+      <configuration name="jedisClientest.testJedisClient" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15513000" />
+    <option name="totallyTimeSpent" value="151887000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="24" width="1366" height="681" extended-state="6" />
+    <frame x="1366" y="24" width="1920" height="993" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25644916" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15705128" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -200,230 +677,412 @@
       <window_info id="UI Designer" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info id="Web" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Spring" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32933104" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.2109777" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.6669196" visible="true" weight="0.27771556" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32933104" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32922733" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Java Enterprise" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.3330804" side_tool="true" weight="0.6798623" />
+      <window_info anchor="bottom" id="Java Enterprise" order="10" weight="0.32933104" />
       <window_info anchor="bottom" id="Database Changes" order="11" />
-      <window_info anchor="bottom" id="Version Control" order="12" />
+      <window_info anchor="bottom" id="Version Control" order="12" weight="0.32933104" />
+      <window_info anchor="bottom" id="Spring" order="13" weight="0.32933104" />
+      <window_info anchor="bottom" id="Messages" order="14" weight="0.6740995" />
+      <window_info anchor="bottom" id="Application Servers" order="15" weight="0.3661814" />
+      <window_info anchor="right" x="0" y="0" width="430" height="793" id="Documentation" side_tool="true" weight="0.32959402" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.36698717" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
       <window_info anchor="right" id="Database" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="JSF" order="9" />
+      <window_info anchor="right" id="CDI" order="10" />
+      <window_info anchor="right" id="Bean Validation" order="11" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaEE/lib/javaee-impl.jar!/standardSchemas/web-app_2_5.xsd">
+    <entry file="file://$PROJECT_DIR$/../spoc-sso/spoc-sso-service/spoc-sso-service.iml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="869">
-          <caret line="1147" column="6" selection-start-line="1147" selection-start-column="6" selection-end-line="1147" selection-end-column="6" />
+        <state relative-caret-position="-158" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../spoc-sso/spoc-sso-service/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="31" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../spoc-sso-web/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="31" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spoc-manager-pojo/src/main/java/com/spoc/pojo/TbUser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="18" column="20" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/spoc-manager-pojo/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../spoc-sso/spoc-sso-interface/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="38" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
+        <state relative-caret-position="323">
+          <caret line="17" column="21" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spoc-manager-interface/pom.xml">
+    <entry file="file://$PROJECT_DIR$/spoc-manager-dao/src/main/java/com/spoc/mapper/TbUserMapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" column="43" lean-forward="true" selection-start-line="14" selection-start-column="43" selection-end-line="14" selection-end-column="43" />
+        <state relative-caret-position="209">
+          <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spoc-manager-web/web/WEB-INF/web.xml" />
-    <entry file="file://$PROJECT_DIR$/spoc-manager-web/src/main/webapp/index.jsp">
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/platform-impl.jar!/standardSchemas/xhtml1-transitional.dtd">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="133" column="2" selection-start-line="133" selection-start-column="2" selection-end-line="133" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spoc-manager-service/src/test/java/com/Jedis/jedisClientest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
-          <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+          <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spoc-manager-service/src/test/java/com/Jedis/JedisTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-76">
+          <caret line="23" column="22" lean-forward="true" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spoc-manager-service/src/main/resources/conf/resource.properties">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/spoc-manager-service/src/main/resources/spring/applicationContext-dao.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-243" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spoc-manager-service/src/main/resources/spring/applicationContext-service.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="35" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="35" />
+        <state relative-caret-position="266">
+          <caret line="14" column="82" selection-start-line="14" selection-start-column="82" selection-end-line="14" selection-end-column="82" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spoc-manager-service/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="341">
-          <caret line="26" column="20" lean-forward="true" selection-start-line="10" selection-start-column="4" selection-end-line="26" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spoc-manager-web/src/main/java/com/spoc/controller/ItemController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="18" column="27" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spoc-manager-service/src/main/java/com/spoc/service/Impl/itemServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spoc-manager-web/src/main/resources/conf/db.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spoc-manager-service/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="38" lean-forward="true" selection-start-line="4" selection-start-column="38" selection-end-line="4" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spoc-manager-web/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="627">
-          <caret line="33" column="35" lean-forward="true" selection-start-line="33" selection-start-column="35" selection-end-line="33" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spoc-manager-web/src/main/resources/mybatis/SqlMapConfig.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spoc-manager-web/src/main/resources/spring/applicationContext-service.xml">
+    <entry file="file://$PROJECT_DIR$/../spoc-sso/spoc-sso-interface/src/main/java/com/sso/service/RegisterService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
-          <caret line="10" column="61" lean-forward="true" selection-start-line="10" selection-start-column="61" selection-end-line="10" selection-end-column="61" />
+          <caret line="10" column="25" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spoc-manager-web/src/main/webapp/WEB-INF/web.xml">
+    <entry file="file://$PROJECT_DIR$/spoc-manager-interface/src/main/java/com/spoc/service/ItemService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="89">
-          <caret line="45" column="49" lean-forward="true" selection-start-line="45" selection-start-column="49" selection-end-line="45" selection-end-column="49" />
+        <state relative-caret-position="95">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spoc-manager-web/src/main/resources/spring/applicationContext-trans.xml">
+    <entry file="file://$PROJECT_DIR$/spoc-manager-service/src/main/java/com/spoc/service/ItemServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="15" column="15" selection-start-line="15" selection-start-column="15" selection-end-line="15" selection-end-column="15" />
+        <state relative-caret-position="133">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/../spoc-manager-web/src/main/java/com/spoc/controller/ItemController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../spoc-manager-web/src/main/resources/spring/springmvc.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../spoc-sso/spoc-sso-service/src/main/java/com/sso/service/impl/RegisterServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="354">
+          <caret line="19" column="21" lean-forward="true" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../spoc-common/src/main/java/com/common/utils/E3Result.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="227">
+          <caret line="88" column="7" lean-forward="true" selection-start-line="88" selection-start-column="7" selection-end-line="88" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../spoc-common/src/main/java/com/common/utils/JsonUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../spoc-sso/spoc-sso-interface/src/main/java/com/sso/service/LoginService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="56" lean-forward="true" selection-start-line="14" selection-start-column="56" selection-end-line="14" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../spoc-common/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="72" column="35" selection-start-line="72" selection-start-column="35" selection-end-line="72" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../spoc-sso-web/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="59" column="6" selection-start-line="59" selection-start-column="6" selection-end-line="59" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../spoc-common/src/main/java/com/common/utils/CookieUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="779">
+          <caret line="209" column="54" lean-forward="true" selection-start-line="209" selection-start-column="54" selection-end-line="209" selection-end-column="54" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../spoc-sso/spoc-sso-service/src/main/resources/conf/resource.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="13" selection-start-column="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../spoc-sso/spoc-sso-service/src/main/resources/spring/applicationContext-trans.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="30" lean-forward="true" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../spoc-sso/spoc-sso-service/src/main/resources/spring/applicationContext-dao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="75" lean-forward="true" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../spoc-sso-web/src/main/java/com/sso/controller/RegisterController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="149">
-          <caret line="37" column="34" selection-start-line="37" selection-start-column="34" selection-end-line="37" selection-end-column="34" />
+          <caret line="16" column="44" lean-forward="true" selection-start-line="16" selection-start-column="44" selection-end-line="16" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spoc-manager-web/src/main/resources/spring/applicationContext-dao.xml">
+    <entry file="file://$PROJECT_DIR$/../spoc-sso-web/src/main/resources/conf/resource.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-152">
-          <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+        <state relative-caret-position="19">
+          <caret line="1" column="15" selection-start-line="1" selection-start-column="15" selection-end-line="1" selection-end-column="15" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spoc-manager-dao/src/main/java/com/spoc/mapper/TbItemMapper.xml">
+    <entry file="file://$PROJECT_DIR$/../spoc-sso-web/src/main/java/com/sso/controller/LoginController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="36" lean-forward="true" selection-start-line="3" selection-start-column="36" selection-end-line="3" selection-end-column="36" />
+        <state relative-caret-position="168">
+          <caret line="24" column="21" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#825#826#0" expanded="true" />
+            <element signature="e#855#856#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spoc-manager-dao/src/main/java/com/spoc/mapper/TbContentCategoryMapper.java">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/../spoc-sso-web/src/main/webapp/images/case_bg.jpg">
+      <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/spoc-manager-dao/src/main/java/com/spoc/mapper/TbContentMapper.java">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/../spoc-sso-web/src/main/webapp/images/logo.png">
+      <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/spoc-manager-dao/src/main/java/com/spoc/mapper/TbItemDescMapper.java">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/../spoc-sso-web/src/main/webapp/images/logos.png">
+      <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/spoc-manager-dao/src/main/java/com/spoc/mapper/TbItemMapper.java">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/../spoc-sso-web/src/main/webapp/images/06f42c372620f92b40da77a8b23cdf7f.png">
+      <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/spoc-manager-dao/src/main/java/com/spoc/mapper/TbItemCatMapper.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spoc-manager-dao/src/main/java/com/spoc/mapper/TbUserMapper.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spoc-manager-dao/src/main/java/com/spoc/mapper/TbOrderShippingMapper.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spoc-manager-dao/src/main/java/com/spoc/mapper/TbItemParamItemMapper.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spoc-manager-dao/src/main/java/com/spoc/mapper/TbOrderItemMapper.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spoc-manager-dao/src/main/java/com/spoc/mapper/TbItemParamMapper.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spoc-manager-pojo/src/main/java/com/spoc/pojo/TbItemParamExample.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spoc-manager-pojo/src/main/java/com/spoc/pojo/TbOrderShippingExample.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spoc-manager-pojo/src/main/java/com/spoc/pojo/TbUserExample.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spoc-manager-pojo/src/main/java/com/spoc/pojo/TbItemParamItemExample.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spoc-manager-pojo/src/main/java/com/spoc/pojo/TbContentExample.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spoc-manager-pojo/src/main/java/com/spoc/pojo/TbItemDescExample.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spoc-manager-pojo/src/main/java/com/spoc/pojo/TbItemExample.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spoc-manager-pojo/src/main/java/com/spoc/pojo/TbContentCategory.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spoc-manager-pojo/src/main/java/com/spoc/pojo/TbContentCategoryExample.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spoc-manager-dao/src/main/java/com/spoc/mapper/TbContentCategoryMapper.xml">
+    <entry file="file://$PROJECT_DIR$/../spoc-manager-web/src/main/webapp/WEB-INF/jsp/login.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4674">
-          <caret line="246" column="63" lean-forward="true" selection-start-line="246" selection-start-column="63" selection-end-line="246" selection-end-column="63" />
+        <state relative-caret-position="399">
+          <caret line="21" column="81" lean-forward="true" selection-start-line="21" selection-start-column="81" selection-end-line="21" selection-end-column="81" />
+          <folding>
+            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spoc-manager-pojo/src/main/java/com/spoc/pojo/TbItemParamItem.java">
+    <entry file="file://$PROJECT_DIR$/../spoc-sso/spoc-sso-service/src/main/resources/spring/applicationContext-service.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="454">
+          <caret line="32" column="77" lean-forward="true" selection-start-line="32" selection-start-column="77" selection-end-line="32" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../spoc-sso/spoc-sso-service/src/main/java/com/sso/service/impl/LoginServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="25" column="4" lean-forward="true" selection-start-line="25" selection-start-column="4" selection-end-line="26" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../spoc-sso/spoc-sso-service/src/main/resources/spring/applicationContext-redis.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="35" column="62" selection-start-line="35" selection-start-column="62" selection-end-line="35" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../spoc-sso-web/src/main/resources/spring/springmvc.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="30" column="55" lean-forward="true" selection-start-line="30" selection-start-column="55" selection-end-line="30" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../spoc-sso/spoc-sso-service/src/main/java/com/sso/service/impl/TokenServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="310">
+          <caret line="24" column="20" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#439#458#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../spoc-sso/spoc-sso-interface/src/main/java/com/sso/service/TokenService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../spoc-sso-web/src/main/java/com/sso/controller/TokenController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="244">
+          <caret line="22" column="95" selection-start-line="22" selection-start-column="95" selection-end-line="22" selection-end-column="95" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../spoc-manager-web/src/main/webapp/WEB-INF/jsp/content.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="5" column="17" lean-forward="true" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../spoc-manager-web/src/main/webapp/WEB-INF/jsp/content-add.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="85" lean-forward="true" selection-start-line="14" selection-start-column="85" selection-end-line="14" selection-end-column="85" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#td#1;n#tr#0;n#table#0;n#form#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#td#1;n#tr#1;n#table#0;n#form#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../spoc-manager-web/src/main/webapp/css/default.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="129" column="1" selection-start-line="129" selection-start-column="1" selection-end-line="129" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../spoc-sso-web/src/main/webapp/WEB-INF/jsp/login.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../spoc-sso-web/src/main/webapp/WEB-INF/jsp/register.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="111" column="22" lean-forward="true" selection-start-line="111" selection-start-column="22" selection-end-line="111" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../spoc-sso-web/src/main/webapp/index.jsp">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/spoc-manager-dao/pom.xml">
+    <entry file="file://$PROJECT_DIR$/../spoc-manager-web/src/main/webapp/js/jquery.cookie.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="61" column="10" selection-start-line="61" selection-start-column="10" selection-end-line="61" selection-end-column="10" />
+        <state relative-caret-position="-1009" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../spoc-manager-web/src/main/webapp/js/e3mall.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="99" lean-forward="true" selection-start-line="13" selection-start-column="99" selection-end-line="13" selection-end-column="99" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../spoc-manager-web/src/main/webapp/WEB-INF/jsp/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="28" column="62" lean-forward="true" selection-start-line="28" selection-start-column="62" selection-end-line="28" selection-end-column="62" />
         </state>
       </provider>
     </entry>
@@ -433,11 +1092,11 @@
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
-          <last-edited>spoc-manager-web:Web exploded</last-edited>
+          <last-edited>spoc-sso:war</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.31696814" />
                 <option value="0.5" />
               </list>
             </option>
@@ -446,11 +1105,11 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
-          <last-edited>Web</last-edited>
+          <last-edited>Web (spoc-sso-service)|Web</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.31696814" />
+                <option value="0.3263889" />
               </list>
             </option>
           </splitter-proportions>
@@ -461,7 +1120,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.31696814" />
               </list>
             </option>
           </splitter-proportions>
@@ -473,7 +1132,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.31696814" />
               </list>
             </option>
           </splitter-proportions>
@@ -481,11 +1140,11 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>Spring|spoc-manager-service</last-edited>
+          <last-edited>spoc-sso-service</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.31696814" />
+                <option value="0.25992063" />
               </list>
             </option>
           </splitter-proportions>
@@ -505,11 +1164,11 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>Maven: aopalliance:aopalliance:1.0</last-edited>
+          <last-edited>Maven: c3p0:c3p0:0.9.1.1</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.31696814" />
               </list>
             </option>
           </splitter-proportions>

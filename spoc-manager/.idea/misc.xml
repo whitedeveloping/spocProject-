@@ -2,7 +2,13 @@
 <project version="4">
   <component name="ExternalStorageConfigurationManager" enabled="true" />
   <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/../spoc-manager-web" />
+    <file type="web" url="file://$PROJECT_DIR$/spoc-manager-service" />
     <file type="web" url="file://$PROJECT_DIR$/spoc-manager-web" />
+    <file type="web" url="file://$PROJECT_DIR$/../spoc-sso" />
+    <file type="web" url="file://$PROJECT_DIR$/../spoc-sso-web" />
+    <file type="web" url="file://$PROJECT_DIR$/../spoc-sso/spoc-sso-service" />
+    <file type="web" url="file://$PROJECT_DIR$/../spoc-user" />
   </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
@@ -10,7 +16,20 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/../spoc-common/pom.xml" />
         <option value="$PROJECT_DIR$/../spoc-parent/pom.xml" />
+        <option value="$PROJECT_DIR$/../spoc-manager-web/pom.xml" />
+        <option value="$PROJECT_DIR$/../pagehelper/pom.xml" />
+        <option value="$PROJECT_DIR$/../spoc-sso-web/pom.xml" />
+        <option value="$PROJECT_DIR$/../spoc-user/pom.xml" />
+        <option value="$PROJECT_DIR$/../spoc-sso/pom.xml" />
       </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/../spoc-sso/spoc-sso-controller/pom.xml" />
+        <option value="$PROJECT_DIR$/../spoc-sso/spoc-sso-dao/pom.xml" />
+        <option value="$PROJECT_DIR$/../spoc-sso/spoc-sso-interface/pom.xml" />
+        <option value="$PROJECT_DIR$/../spoc-sso/spoc-sso-service/pom.xml" />
+      </set>
     </option>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK">

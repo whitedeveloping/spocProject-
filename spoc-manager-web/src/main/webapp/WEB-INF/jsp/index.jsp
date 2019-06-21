@@ -34,11 +34,18 @@
     <div data-options="region:'west',title:'菜单',split:true" style="width:180px;">
     	<ul id="menu" class="easyui-tree" style="margin-top: 10px;margin-left: 5px;">
          	<li>
+<<<<<<< HEAD
          		<span>视频管理</span>
          		<ul>
 	         		<li data-options="attributes:{'url':'item-add'}">新增视频</li>
 	         		<li data-options="attributes:{'url':'item-search'}">查询视频</li>
 					<li data-options="attributes:{'url':'item-show'}">播放视频</li>
+=======
+         		<span>商品管理</span>
+         		<ul>
+	         		<li data-options="attributes:{'url':'item-add'}">新增商品</li>
+	         		<li data-options="attributes:{'url':'item-list'}">查询商品</li>
+>>>>>>> 66cf74461f7f85f87331adf3b79460094a9f7599
 	         		<li data-options="attributes:{'url':'item-param-list'}">规格参数</li>
 	         	</ul>
          	</li>
